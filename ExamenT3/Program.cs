@@ -20,7 +20,6 @@ namespace ExamenT3
             int cantidad = int.Parse(Console.ReadLine());
             int[] numeros = acciones.GenerarNumeros(cantidad);
             Console.WriteLine();
-
             Console.WriteLine("Los números generados son: ");
             Console.WriteLine();
             acciones.Mostrarnumeros(numeros);
